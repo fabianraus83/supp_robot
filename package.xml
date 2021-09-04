@@ -6,18 +6,6 @@
   <description>TODO: Package description</description>
   <maintainer email="fabianraus83@gmail.com">fabian</maintainer>
   <license>TODO: License declaration</license>
-
-  <depend>rclpy</depend>
-  <depend>image_transport</depend>
-  <depend>cv_bridge</depend>
-  <depend>sensor_msgs</depend>
-  <depend>std_msgs</depend>
-  <depend>opencv2</depend>
-  <depend>threading</depend>
-  <depend>RPI.GPIO</depend>
-  <depend>numpy</depend>
-  <depend>time</depend>
-  <depend>pic_message</depend>
   
   <exec_depend>rclpy</exec_depend>
   <exec_depend>std_msgs</exec_depend>
@@ -26,6 +14,10 @@
   <exec_depend>pic_message</exec_depend>
   <exec_depend>cv2</exec_depend>
   <exec_depend>numpy</exec_depend>
+  <exec_depend>opencv2</exec_depend>
+  <exec_depend>threading</exec_depend>
+  <exec_depend>RPI.GPIO<</exec_depend>
+  <exec_depend>time<</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

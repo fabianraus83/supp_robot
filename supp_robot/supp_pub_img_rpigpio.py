@@ -210,7 +210,7 @@ def detect_crossing():
         print("distance: ",dist,"/n iteration: ", i)
         dist_diff = old_dist - dist
         print("dist difference: {}".format(dist_diff))
-        old dist = dist 
+        old_dist = dist 
         if dist_diff > 30:
             return True
 

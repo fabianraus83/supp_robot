@@ -14,7 +14,7 @@ import time
 import numpy as np
 
 from PIL import Image as PILImage
-from yolov4 import Detector
+#from yolov4 import Detector
 
 import rclpy
 from rclpy.node import Node
@@ -23,7 +23,7 @@ from cv_bridge import CvBridge
 #from sensor_msgs.msg import Image
 from pic_message.msg import SupportImage
 
-path = "/Desktop/flask_sqlite_html/multithread_images/"
+path = "~/ultrasound_img/"
 picname = "thread.jpg"
 robot_id = int(input("1 or 2"))
 dist = 0

@@ -36,7 +36,7 @@ print("Ultrasonic Measurement")
 GPIO.setup(GPIO_TRIGECHO, GPIO.OUT)
 print("declar output GPIO as GPIO{}".format(GPIO_TRIGECHO))
 
-path = "/Desktop/flask_sqlite_html/multithread_images/"
+path = "/ultrasound_img/"
 picname = "thread.jpg"
 robot_id = int(input("1 or 2"))
 dist = 0
@@ -275,6 +275,11 @@ class MinimalPublisher(Node):
           except KeyboardInterrupt:
               for thread in threadtuple:
                   thread.end = True
+                  
+#          finally:
+#              print("clean up") 
+#              GPIO.cleanup()
+              
 #      def timer_callback(self):
 #          try: 
 #              

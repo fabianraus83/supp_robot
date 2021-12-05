@@ -36,7 +36,7 @@ print("Ultrasonic Measurement")
 GPIO.setup(GPIO_TRIGECHO, GPIO.OUT)
 print("declar output GPIO as GPIO{}".format(GPIO_TRIGECHO))
 
-path = "/ultrasound_img/"
+path = "~/ultrasound_img/"
 picname = "thread.jpg"
 robot_id = int(input("1 or 2"))
 dist = 0

@@ -14,7 +14,7 @@ import time
 import numpy as np
 
 from PIL import Image as PILImage
-from yolov4 import Detector
+#from yolov4 import Detector
 
 import rclpy
 from rclpy.node import Node
